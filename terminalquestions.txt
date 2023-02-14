@@ -1,0 +1,30 @@
+Part 1
+mkdir first
+cd first
+touch person.txt
+mv person.txt another.txt
+copy.txt cp another.txt copy.txt
+rm copy.txt
+cp -r first second
+rm -rf second
+Part 2
+
+The man command lists the manual for a command
+- D or Control ⌃-D to advance half a page - B or Control ⌃-B to go back one page - U or Control ⌃-U to go back half a page
+Look at the man page for ls. 
+
+ The `-l` flag lists files in a list with extra detail and the `-a` lists all files and folders plus hidden ones
+
+option left/right
+control  e
+control  a
+option + delete
+
+terminal is just an interface to the shell. The shell is what actually handles commands 
+the terminal program is how we interact with the environment.
+
+An absolute path - starts from the root and gives the full location for a file or folder
+ A relative path - starts at the current location and not the root route
+ A flag adds more options to a command, like  -a and -l for the ls command and -r for the cp and rm commands
+ r will remove folders and go through each folder and file 
+ f will force removal
